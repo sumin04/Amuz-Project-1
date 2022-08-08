@@ -23,13 +23,18 @@ export default {
   *{
     margin: 0;
     padding: 0;
-    text-align: center;
+    /* text-align: center; */
   }
   div{
     margin: 20px;
   }
+  ul{
+    width: 400px;
+    transform: translateX(130%);
+    margin-top: 30px;
+  }
   ul > li{
     float: left;
-    margin: 30px 30px 30px 30px;
+    margin: 0 30px;
   }
 </style>
